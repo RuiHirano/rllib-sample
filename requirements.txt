@@ -1,0 +1,10 @@
+ray==0.8.5
+ray[tune]
+ray[rllib]
+tabulate
+gym
+psutil
+tensorflow
+pandas
+dm-tree
+opencv-python

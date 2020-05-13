@@ -1,0 +1,1 @@
+docker run --rm -it -p 6006:6006 -v ~/workspace/ray_results/:/workspace/ray_results/ ray/rllib:latest
