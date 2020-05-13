@@ -10,8 +10,8 @@ eval:
      --run DQN --env CartPole-v0
 
 hrs2gw:
-		scp -r ruirui_nis@192.168.207.236:~/workspace/rllib-test/ ./workspace/rllib-test
+		scp -r ruirui_nis@192.168.207.236:~/workspace/rllib-sample/ ./workspace/rllib-sample
 
 gw2lc:
-		scp -r ruirui@133.6.254.20:~/workspace/rllib-test ./
+		scp -r ruirui@133.6.254.20:~/workspace/rllib-sample ./
 

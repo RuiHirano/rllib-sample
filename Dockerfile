@@ -9,3 +9,5 @@ RUN apt-get update && apt-get install -y libgtk2.0-dev
 RUN pip install --upgrade pip 
 RUN pip install -r requirements.txt 
 
+RUN git clone https://github.com/ray-project/ray
+
