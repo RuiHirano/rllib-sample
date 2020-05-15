@@ -1,5 +1,6 @@
 run:
-		python ray/python/ray/rllib/train.py --run DQN --env CartPole-v0 --checkpoint-freq 100 --local-dir /workspace/ray_results
+		python ray/python/ray/rllib/train.py --run DQN --env CartPole-v0 --checkpoint-freq 100 --local-dir /workspace/ray_results --resources-per-trial {"cpu": 64, "gpu": 8}
+
 
 tf:
 		tensorboard --logdir=/workspace/ray_results
