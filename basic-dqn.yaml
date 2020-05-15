@@ -1,8 +1,10 @@
 basic-dqn:
-    env: CartPole-v0 # BreakoutNoFrameskip-v4
+    env:
+        grid_search:
+            - CartPole-v0
     run: DQN
     config:
-        double_q: true
+        double_q: false
         dueling: false
         num_atoms: 1
         noisy: false
